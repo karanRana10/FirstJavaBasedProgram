@@ -12,7 +12,7 @@ Instance variables - instance variables are declared without the STATIC keyword.
  Static variables - 
  -static var. are defined with the static keyword.
  -static var. are initialized only once,at the start of the program execution.
- -these static var. should be initialzed first,before the limitations of any other.
+ -these static variable should be initialzed first,before the limitations of any other.
  
  Data Types In Java:
  
@@ -49,7 +49,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		float myfloatNum= 5.99f;//floating point num.
 		char myLetter= 'D';//character
 		boolean myBool= true;//boolean
-		string myText="hello";//string
+		String myText="hello";//string
 		 System.out.println(myNum);
 		 System.out.println(myfloatNum);
 		 System.out.println(myLetter);
@@ -74,7 +74,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		 System.out.println(j);
 		 
 		 byte k= 10;//1byte
-		 boolean 1 = true; //1bit = true or false only
+		 boolean l = true; //1bit = true or false only
 		 long m= 10L;
 		 float n=1.2f;
 		 double o= 1.2d;
@@ -85,11 +85,11 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		 System.out.println(n);
 		 System.out.println(o);
 		 
-		 System.out.println(ABC.J);//DATA + FUNCTIONS/METHODS
+		 System.out.println(ABC.j);//DATA + FUNCTIONS/METHODS
 		 //ABC.display();
 		  ABC obj1 = new ABC();
 		  System.out.println(obj1.i++);
-		  System.out.println(obj.1);
+		  System.out.println(obj1.i);
 		  
 		  ABC obj2 = new ABC();
 		  System.out.println(obj2.i);
